@@ -3,7 +3,7 @@ name: '每日上报'
 on:
   push:
   schedule:
-    - cron: '25 15 * * *'
+    - cron: '30 15 * * *'
 
 jobs:
   build:
